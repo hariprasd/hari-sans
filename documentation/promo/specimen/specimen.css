@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Hari Sans";
+  src:
+    url("./../fonts/HariSans-Regular.otf") format("opentype"),
+    url("./../fonts/HariSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --typeit-font: "Hari Sans", serif;
+}
+
+body {
+  margin: 0;
+  padding: 48px;
+  color: #171715;
+  background: #f2f2ef;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.sample {
+  font-family: var(--typeit-font);
+  font-size: 72px;
+  line-height: 1.14;
+  letter-spacing: 0;
+}
